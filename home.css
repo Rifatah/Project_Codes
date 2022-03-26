@@ -2,12 +2,19 @@ body{
     background-color: mistyrose;
     padding: 20px;
 }
+.headimg{
+    margin-top: 10px;
+    float: right;
+    height: 400px;
+    width: 700px;
+}
 .header{
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     color: rgb(80, 89, 175);
+    height: 200px;
 }
 .navbar{
     background-color: rgb(146, 34, 34);
