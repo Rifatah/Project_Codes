@@ -1,0 +1,38 @@
+body{
+    background-color: mistyrose;
+    padding: 20px;
+}
+.header{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(80, 89, 175);
+}
+.navbar{
+    background-color: rgb(146, 34, 34);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+
+}
+.navbar a{
+    color: whitesmoke;
+    float: left;
+    display: block;
+    padding: 14px 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #444;
+    color: chocolate;
+}
+
+.navbar a.active{
+    background-color: rgb(105, 172, 37);
+    color: rgb(22, 7, 2);
+}
